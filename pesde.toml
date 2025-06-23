@@ -1,6 +1,6 @@
-name = "pesde/scripts_core"
-version = "0.0.3"
-description = "Scripts and other utilities for use with pesde"
+name = "jiwonz/pesde_scripts_core"
+version = "0.0.3-rc.1"
+description = "[Fork] Scripts and other utilities for use with pesde"
 authors = [
   "daimond113 <contact@daimond113.com> (https://www.daimond113.com/)",
   "Erica Marigold <hi@devcomp.xyz>",
@@ -22,7 +22,7 @@ pesde = "^0.7.0-rc.1"
 lune = "^0.9.4"
 
 [meta.scripts.rojo]
-version = "0.1.0"
+version = "0.1.0-rc.1"
 tool_dependencies = { rojo = { name = "pesde/rojo", version = "^7.4.4" } }
 
 [meta.scripts.argon]

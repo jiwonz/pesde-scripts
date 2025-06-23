@@ -5,9 +5,9 @@ return {
 			syncConfig = require("./generators/rojo/sync_config"),
 		},
 
-		argon = {
-			sourcemap = require("./generators/argon/sourcemap"),
-			syncConfig = require("./generators/argon/sync_config"),
-		}
+		-- argon = {
+		-- 	sourcemap = require("./generators/argon/sourcemap"),
+		-- 	syncConfig = require("./generators/argon/sync_config"),
+		-- }
 	},
 }

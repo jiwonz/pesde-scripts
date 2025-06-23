@@ -137,11 +137,11 @@ for tool, generators in lib.generators do
 
 	-- Define the manifest for the tool
 	local toolManifest: manifest.PesdeManifest = {
-		name = `pesde/scripts_{toolChoice}`,
+		name = `jiwonz/pesde_scripts_{toolChoice}`,
 		version = toolMeta.version,
 		-- For the description, we capitalize the first letter of the tool name here
 		-- since it is a proper noun
-		description = `Scripts for {capitalisedToolChoice}-based Roblox projects.`,
+		description = `[Fork] Scripts for {capitalisedToolChoice}-based Roblox projects. This is a fork for Lune 0.9 and rokit-managed rojo users`,
 		authors = {
 			"daimond113 <contact@daimond113.com> (https://www.daimond113.com/)",
 			"Erica Marigold <hi@devcomp.xyz>",
@@ -164,9 +164,9 @@ for tool, generators in lib.generators do
 			},
 		},
 
-		peer_dependencies = toolMeta.tool_dependencies,
+		-- peer_dependencies = toolMeta.tool_dependencies,
 		dependencies = {
-			core = { workspace = "pesde/scripts_core", version = "^" },
+			core = { workspace = "jiwonz/pesde_scripts_core", version = "^" },
 		},
 
 		indices = {
