@@ -18,7 +18,7 @@ local SCRIPTS = {
 local args = table.clone(process.args)
 local ok, _ = require("./lune_packages/scripts_core").generators.%s.syncConfig(table.remove(args, 1), args, { writeToFile = true })
 
-if not ok then 
+if not ok then
 	return process.exit(1)
 end]],
 
@@ -166,7 +166,7 @@ for tool, generators in lib.generators do
 			},
 		},
 
-		peer_dependencies = toolMeta.tool_dependencies,
+		-- peer_dependencies = toolMeta.tool_dependencies,
 		dependencies = {
 			scripts_core = { workspace = "pesde/scripts_core", version = "^" },
 		},
