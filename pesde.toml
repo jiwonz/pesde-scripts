@@ -1,6 +1,6 @@
-name = "pesde/scripts_core"
-version = "0.2.0"
-description = "Scripts and other utilities for use with pesde"
+name = "jiwonz/pesde_scripts_core"
+version = "0.2.0-rc.1"
+description = "[Fork] Scripts and other utilities for use with pesde. but for custom toolchain manager (no peer dependency)"
 authors = [
   "daimond113 <contact@daimond113.com> (https://www.daimond113.com/)",
   "Erica Marigold <hi@devcomp.xyz>",
@@ -22,7 +22,7 @@ pesde = "^0.7.0"
 lune = "^0.10.2"
 
 [meta.scripts.rojo]
-version = "0.2.0"
+version = "0.2.0-rc.1"
 tool_dependencies = { rojo = { name = "pesde/rojo", version = "^7.5.1+toolchainlib.1" } }
 
 [meta.scripts.argon]
@@ -36,10 +36,6 @@ lib = "src/init.luau"
 [dev_dependencies]
 frktest = { name = "itsfrank/frktest", version = "^0.0.4", target = "luau" }
 pathfs = { name = "jiwonz/pathfs", version = "^0.6.0" }
-luau-lsp = { name = "pesde/luau_lsp", version = "^1.53.5+toolchainlib.1" }
-stylua = { name = "pesde/stylua", version = "^2.2.0+toolchainlib.1" }
-argon = { name = "pesde/argon", version = "^2.0.26+toolchainlib.1" }
-rojo = { name = "pesde/rojo", version = "^7.5.1+toolchainlib.1" }
 
 [indices]
 default = "https://github.com/pesde-pkg/index"
