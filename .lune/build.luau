@@ -143,7 +143,7 @@ for tool, generators in lib.generators do
 			"daimond113 <contact@daimond113.com> (https://www.daimond113.com/)",
 			"Erica Marigold <hi@devcomp.xyz>",
 		},
-		repository = "https://github.com/pesde-pkg/scripts",
+		repository = "https://github.com/jiwonz/pesde-scripts",
 		license = "MIT" :: "MIT",
 		includes = {
 			"roblox_sync_config_generator.luau",
